@@ -21,6 +21,17 @@ public class HomePage {
 	
 	@FindBy(linkText="Campaigns")
 	private WebElement campaignLink;
+	
+	@FindBy(linkText="Products")
+	private WebElement productLink;
+	public WebElement getProductLink() {
+		return productLink;
+	}
+
+	public WebElement getSignoutlink() {
+		return signoutlink;
+	}
+
 	@FindBy(linkText="More")
 	private WebElement moreLink;
 	@FindBy(xpath="//img[@src='themes/softed/images/user.PNG']")
