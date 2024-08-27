@@ -14,8 +14,15 @@ public class ProductsPage {
 		return ele1;
 	}
 
+	@FindBy(name="search")
+	private WebElement ele3;
+
+
 	public WebElement getCreateproductimgBtn() {
 		return createproductimgBtn;
 	}
 
+	public WebElement getEle3() {
+		return ele3;
+	}
 }
