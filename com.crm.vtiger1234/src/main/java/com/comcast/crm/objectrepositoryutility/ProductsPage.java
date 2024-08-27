@@ -25,4 +25,7 @@ public class ProductsPage {
 	public WebElement getEle3() {
 		return ele3;
 	}
+	
+	@FindBy(name="search")
+	private WebElement ele10;
 }

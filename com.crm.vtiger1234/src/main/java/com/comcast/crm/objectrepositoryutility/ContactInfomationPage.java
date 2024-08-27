@@ -25,6 +25,8 @@ public class ContactInfomationPage {
 	
 	@FindBy(xpath="//span[@class='dvHeaderText']")
 	private WebElement contactinfo;
+	//@FindBy(name="searchNow")
+	//private WebElement searchNow;
 	
 	/*
 	 * @FindBy(id="dtlview_Last Name") private WebElement headerlastnameEdit;
