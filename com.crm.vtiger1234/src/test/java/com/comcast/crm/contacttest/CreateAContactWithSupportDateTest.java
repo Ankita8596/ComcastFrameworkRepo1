@@ -83,6 +83,7 @@ public class CreateAContactWithSupportDateTest {
 		}
 		else {
 			System.out.println(endDate + "infomation is not verified==Fail");
+			System.out.println("completed");
 		}
 		
 		

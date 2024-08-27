@@ -8,7 +8,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class CreatingNewOrganizationPage {
 	
-	  
 	WebDriver driver;
 	public CreatingNewOrganizationPage(WebDriver driver) {
 		this.driver=driver;
